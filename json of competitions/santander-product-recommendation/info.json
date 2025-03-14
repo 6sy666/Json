@@ -1,0 +1,41 @@
+{
+    "name": "santander-product-recommendation",
+    "source": "https://www.kaggle.com/competitions/santander-product-recommendation",
+    "data_intro": "Can you pair products with people?",
+    "is_splited": true,
+    "overall_size": 3718460,
+    "train_size": 0,
+    "test_size": 929615,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "added_products": {},
+        "fecha_dato": {},
+        "ind_empleado": {},
+        "pais_residencia": {},
+        "sexo": {},
+        "fecha_alta": {},
+        "ult_fec_cli_1t": {},
+        "tiprel_1mes": {},
+        "indresi": {},
+        "indext": {},
+        "conyuemp": {},
+        "canal_entrada": {},
+        "indfall": {},
+        "nomprov": {},
+        "renta": {},
+        "segmento": {}
+    },
+    "num_feature_intro": {
+        "ncodpers": {},
+        "age": {},
+        "ind_nuevo": {},
+        "antiguedad": {},
+        "indrel": {},
+        "indrel_1mes": {},
+        "tipodom": {},
+        "cod_prov": {},
+        "ind_actividad_cliente": {}
+    },
+    "evaluation_metric": "MAP@{K}"
+}

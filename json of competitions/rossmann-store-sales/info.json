@@ -1,0 +1,35 @@
+{
+    "name": "rossmann-store-sales",
+    "source": "https://www.kaggle.com/competitions/rossmann-store-sales",
+    "data_intro": "Forecast sales using store, promotion, and competitor data",
+    "is_splited": true,
+    "overall_size": 1100500,
+    "train_size": 1017209,
+    "test_size": 41088,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "StoreType": {},
+        "Assortment": {},
+        "PromoInterval": {},
+        "Date": {},
+        "StateHoliday": {}
+    },
+    "num_feature_intro": {
+        "Id": {},
+        "Sales": {},
+        "Store": {},
+        "CompetitionDistance": {},
+        "CompetitionOpenSinceMonth": {},
+        "CompetitionOpenSinceYear": {},
+        "Promo2": {},
+        "Promo2SinceWeek": {},
+        "Promo2SinceYear": {},
+        "DayOfWeek": {},
+        "Open": {},
+        "Promo": {},
+        "SchoolHoliday": {},
+        "Customers": {}
+    },
+    "evaluation_metric": "Root Mean Square Percentage Error"
+}

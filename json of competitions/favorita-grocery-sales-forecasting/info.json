@@ -1,0 +1,14 @@
+{
+    "name": "favorita-grocery-sales-forecasting",
+    "source": "https://www.kaggle.com/competitions/favorita-grocery-sales-forecasting",
+    "data_intro": "Can you accurately predict sales for a large grocery chain?",
+    "is_splited": false,
+    "overall_size": 0,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {},
+    "num_feature_intro": {},
+    "evaluation_metric": "Normalized Weighted Root Mean Squared Logarithmic Error"
+}

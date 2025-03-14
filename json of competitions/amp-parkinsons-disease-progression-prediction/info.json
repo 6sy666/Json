@@ -1,0 +1,33 @@
+{
+    "name": "amp-parkinsons-disease-progression-prediction",
+    "source": "https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction",
+    "data_intro": "Use protein and peptide data measurements from Parkinson's Disease patients to predict progression of the disease.\n",
+    "is_splited": true,
+    "overall_size": 1222195,
+    "train_size": 232741,
+    "test_size": 453,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "visit_id": {},
+        "upd23b_clinical_state_on_medication": {},
+        "UniProt": {},
+        "Peptide": {},
+        "prediction_id": {},
+        "updrs_test": {},
+        "row_id": {}
+    },
+    "num_feature_intro": {
+        "patient_id": {},
+        "visit_month": {},
+        "updrs_1": {},
+        "updrs_2": {},
+        "updrs_3": {},
+        "updrs_4": {},
+        "PeptideAbundance": {},
+        "NPX": {},
+        "rating": {},
+        "group_key": {}
+    },
+    "evaluation_metric": "smape_plus_1"
+}

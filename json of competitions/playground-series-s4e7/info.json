@@ -1,0 +1,28 @@
+{
+    "name": "playground-series-s4e7",
+    "source": "https://www.kaggle.com/competitions/playground-series-s4e7",
+    "data_intro": "Playground Series - Season 4, Episode 7",
+    "is_splited": true,
+    "overall_size": 26844530,
+    "train_size": 11504798,
+    "test_size": 7669866,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "Gender": {},
+        "Vehicle_Age": {},
+        "Vehicle_Damage": {}
+    },
+    "num_feature_intro": {
+        "id": {},
+        "Response": {},
+        "Age": {},
+        "Driving_License": {},
+        "Region_Code": {},
+        "Previously_Insured": {},
+        "Annual_Premium": {},
+        "Policy_Sales_Channel": {},
+        "Vintage": {}
+    },
+    "evaluation_metric": "Roc Auc Score"
+}

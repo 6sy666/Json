@@ -1,0 +1,14 @@
+{
+    "name": "bnp-paribas-cardif-claims-management",
+    "source": "https://www.kaggle.com/competitions/bnp-paribas-cardif-claims-management",
+    "data_intro": "Can you accelerate BNP Paribas Cardif's claims management process?",
+    "is_splited": false,
+    "overall_size": 0,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {},
+    "num_feature_intro": {},
+    "evaluation_metric": "Log Loss"
+}

@@ -1,0 +1,39 @@
+{
+    "name": "predict-student-performance-from-game-play",
+    "source": "https://www.kaggle.com/competitions/predict-student-performance-from-game-play",
+    "data_intro": "Trace student learning from Jo Wilder online educational game",
+    "is_splited": true,
+    "overall_size": 427898,
+    "train_size": 424116,
+    "test_size": 3728,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "session_id": {},
+        "event_name": {},
+        "name": {},
+        "text": {},
+        "fqid": {},
+        "room_fqid": {},
+        "text_fqid": {},
+        "level_group": {}
+    },
+    "num_feature_intro": {
+        "correct": {},
+        "session_level": {},
+        "session_id": {},
+        "index": {},
+        "elapsed_time": {},
+        "level": {},
+        "page": {},
+        "room_coor_x": {},
+        "room_coor_y": {},
+        "screen_coor_x": {},
+        "screen_coor_y": {},
+        "hover_duration": {},
+        "fullscreen": {},
+        "hq": {},
+        "music": {}
+    },
+    "evaluation_metric": "F-Score (Macro)"
+}

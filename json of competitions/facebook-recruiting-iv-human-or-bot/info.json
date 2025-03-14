@@ -1,0 +1,18 @@
+{
+    "name": "facebook-recruiting-iv-human-or-bot",
+    "source": "https://www.kaggle.com/competitions/facebook-recruiting-iv-human-or-bot",
+    "data_intro": "Predict if an online bid is made by a machine or a human",
+    "is_splited": false,
+    "overall_size": 4700,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "bidder_id": {}
+    },
+    "num_feature_intro": {
+        "prediction": {}
+    },
+    "evaluation_metric": "Area Under Receiver Operating Characteristic Curve"
+}

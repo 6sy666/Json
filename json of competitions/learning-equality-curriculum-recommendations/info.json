@@ -1,0 +1,33 @@
+{
+    "name": "learning-equality-curriculum-recommendations",
+    "source": "https://www.kaggle.com/competitions/learning-equality-curriculum-recommendations",
+    "data_intro": "Enhance learning by matching K-12 content to target topics",
+    "is_splited": false,
+    "overall_size": 328632,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "id": {},
+        "title": {},
+        "description": {},
+        "kind": {},
+        "text": {},
+        "language": {},
+        "copyright_holder": {},
+        "license": {},
+        "topic_id": {},
+        "content_ids": {},
+        "channel": {},
+        "category": {},
+        "parent": {}
+    },
+    "num_feature_intro": {
+        "level": {},
+        "has_content": {},
+        "Unnamed: 0": {},
+        "fold": {}
+    },
+    "evaluation_metric": "F-Score Beta (Micro)"
+}

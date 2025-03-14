@@ -1,0 +1,23 @@
+{
+    "name": "covid19-global-forecasting-week-4",
+    "source": "https://www.kaggle.com/competitions/covid19-global-forecasting-week-4",
+    "data_intro": "Forecast daily COVID-19 spread in regions around world",
+    "is_splited": true,
+    "overall_size": 62913,
+    "train_size": 35995,
+    "test_size": 13459,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "Province_State": {},
+        "Country_Region": {},
+        "Date": {}
+    },
+    "num_feature_intro": {
+        "ForecastId": {},
+        "ConfirmedCases": {},
+        "Fatalities": {},
+        "Id": {}
+    },
+    "evaluation_metric": "Mean Columnwise Root Mean Squared Logarithmic Error"
+}

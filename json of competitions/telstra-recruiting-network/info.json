@@ -1,0 +1,14 @@
+{
+    "name": "telstra-recruiting-network",
+    "source": "https://www.kaggle.com/competitions/telstra-recruiting-network",
+    "data_intro": "Predict service faults on Australia's largest telecommunications network ",
+    "is_splited": false,
+    "overall_size": 0,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {},
+    "num_feature_intro": {},
+    "evaluation_metric": "Multiclass Loss"
+}

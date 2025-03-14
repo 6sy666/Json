@@ -1,0 +1,29 @@
+{
+    "name": "playground-series-s4e9",
+    "source": "https://www.kaggle.com/competitions/playground-series-s4e9",
+    "data_intro": "Playground Series - Season 4, Episode 9",
+    "is_splited": true,
+    "overall_size": 439913,
+    "train_size": 188533,
+    "test_size": 125690,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "brand": {},
+        "model": {},
+        "fuel_type": {},
+        "engine": {},
+        "transmission": {},
+        "ext_col": {},
+        "int_col": {},
+        "accident": {},
+        "clean_title": {}
+    },
+    "num_feature_intro": {
+        "id": {},
+        "price": {},
+        "model_year": {},
+        "milage": {}
+    },
+    "evaluation_metric": "Mean Squared Error"
+}

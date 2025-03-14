@@ -1,0 +1,33 @@
+{
+    "name": "ashrae-energy-prediction",
+    "source": "https://www.kaggle.com/competitions/ashrae-energy-prediction",
+    "data_intro": "How much energy will a building consume?",
+    "is_splited": true,
+    "overall_size": 104029765,
+    "train_size": 139773,
+    "test_size": 277243,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "primary_use": {},
+        "timestamp": {}
+    },
+    "num_feature_intro": {
+        "site_id": {},
+        "building_id": {},
+        "square_feet": {},
+        "year_built": {},
+        "floor_count": {},
+        "row_id": {},
+        "meter_reading": {},
+        "meter": {},
+        "air_temperature": {},
+        "cloud_coverage": {},
+        "dew_temperature": {},
+        "precip_depth_1_hr": {},
+        "sea_level_pressure": {},
+        "wind_direction": {},
+        "wind_speed": {}
+    },
+    "evaluation_metric": "Root Mean Squared Logarithmic Error"
+}

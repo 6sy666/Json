@@ -1,0 +1,14 @@
+{
+    "name": "talkingdata-mobile-user-demographics",
+    "source": "https://www.kaggle.com/competitions/talkingdata-mobile-user-demographics",
+    "data_intro": "Get to know millions of mobile device users",
+    "is_splited": false,
+    "overall_size": 0,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {},
+    "num_feature_intro": {},
+    "evaluation_metric": "Multiclass Loss"
+}

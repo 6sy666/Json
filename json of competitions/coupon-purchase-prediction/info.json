@@ -1,0 +1,20 @@
+{
+    "name": "coupon-purchase-prediction",
+    "source": "https://www.kaggle.com/competitions/coupon-purchase-prediction",
+    "data_intro": "Predict which coupons a customer will buy",
+    "is_splited": false,
+    "overall_size": 47,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "PREF_NAME": {},
+        "PREFECTUAL_OFFICE": {}
+    },
+    "num_feature_intro": {
+        "LATITUDE": {},
+        "LONGITUDE": {}
+    },
+    "evaluation_metric": "MAP@{K}"
+}

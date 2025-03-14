@@ -1,0 +1,17 @@
+{
+    "name": "stumbleupon",
+    "source": "https://www.kaggle.com/competitions/stumbleupon",
+    "data_intro": "Build a classifier to categorize webpages as evergreen or non-evergreen",
+    "is_splited": false,
+    "overall_size": 3171,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {},
+    "num_feature_intro": {
+        "urlid": {},
+        "label": {}
+    },
+    "evaluation_metric": "Area Under Receiver Operating Characteristic Curve"
+}

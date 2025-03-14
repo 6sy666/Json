@@ -1,0 +1,23 @@
+{
+    "name": "ventilator-pressure-prediction",
+    "source": "https://www.kaggle.com/competitions/ventilator-pressure-prediction",
+    "data_intro": "Simulate a ventilator connected to a sedated patient's lung\n",
+    "is_splited": true,
+    "overall_size": 14084000,
+    "train_size": 6036000,
+    "test_size": 4024000,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {},
+    "num_feature_intro": {
+        "id": {},
+        "pressure": {},
+        "breath_id": {},
+        "R": {},
+        "C": {},
+        "time_step": {},
+        "u_in": {},
+        "u_out": {}
+    },
+    "evaluation_metric": "Mean Absolute Error"
+}

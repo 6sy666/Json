@@ -1,0 +1,22 @@
+{
+    "name": "playground-series-s5e1",
+    "source": "https://www.kaggle.com/competitions/playground-series-s5e1",
+    "data_intro": "Playground Series - Season 5, Episode 1",
+    "is_splited": true,
+    "overall_size": 427230,
+    "train_size": 230130,
+    "test_size": 98550,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "date": {},
+        "country": {},
+        "store": {},
+        "product": {}
+    },
+    "num_feature_intro": {
+        "id": {},
+        "num_sold": {}
+    },
+    "evaluation_metric": "Mean Absolute Percentage Error"
+}

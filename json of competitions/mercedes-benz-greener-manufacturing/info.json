@@ -1,0 +1,14 @@
+{
+    "name": "mercedes-benz-greener-manufacturing",
+    "source": "https://www.kaggle.com/competitions/mercedes-benz-greener-manufacturing",
+    "data_intro": "Can you cut the time a Mercedes-Benz spends on the test bench?",
+    "is_splited": false,
+    "overall_size": 0,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {},
+    "num_feature_intro": {},
+    "evaluation_metric": "R^2 score (coefficient of determination)"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "restaurant-revenue-prediction",
+    "source": "https://www.kaggle.com/competitions/restaurant-revenue-prediction",
+    "data_intro": "Predict annual restaurant sales based on objective measurements",
+    "is_splited": false,
+    "overall_size": 100000,
+    "train_size": 0,
+    "test_size": 0,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {},
+    "num_feature_intro": {
+        "Id": {},
+        "Prediction": {}
+    },
+    "evaluation_metric": "Root Mean Squared Error"
+}

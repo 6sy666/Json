@@ -1,0 +1,28 @@
+{
+    "name": "bike-sharing-demand",
+    "source": "https://www.kaggle.com/competitions/bike-sharing-demand",
+    "data_intro": "Forecast use of a city bikeshare system",
+    "is_splited": true,
+    "overall_size": 23872,
+    "train_size": 10886,
+    "test_size": 6493,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "datetime": {}
+    },
+    "num_feature_intro": {
+        "count": {},
+        "season": {},
+        "holiday": {},
+        "workingday": {},
+        "weather": {},
+        "temp": {},
+        "atemp": {},
+        "humidity": {},
+        "windspeed": {},
+        "casual": {},
+        "registered": {}
+    },
+    "evaluation_metric": "Root Mean Squared Logarithmic Error"
+}

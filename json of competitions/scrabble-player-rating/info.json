@@ -1,0 +1,37 @@
+{
+    "name": "scrabble-player-rating",
+    "source": "https://www.kaggle.com/competitions/scrabble-player-rating",
+    "data_intro": "Predict players' ratings based on Woogles.io gameplay",
+    "is_splited": true,
+    "overall_size": 2246180,
+    "train_size": 100820,
+    "test_size": 44726,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "first": {},
+        "time_control_name": {},
+        "game_end_reason": {},
+        "created_at": {},
+        "lexicon": {},
+        "rating_mode": {},
+        "nickname": {},
+        "rack": {},
+        "location": {},
+        "move": {},
+        "turn_type": {}
+    },
+    "num_feature_intro": {
+        "game_id": {},
+        "winner": {},
+        "initial_time_seconds": {},
+        "increment_seconds": {},
+        "max_overtime_minutes": {},
+        "game_duration_seconds": {},
+        "rating": {},
+        "score": {},
+        "turn_number": {},
+        "points": {}
+    },
+    "evaluation_metric": "Root Mean Squared Error"
+}

@@ -1,0 +1,26 @@
+{
+    "name": "playground-series-s4e4",
+    "source": "https://www.kaggle.com/competitions/playground-series-s4e4",
+    "data_intro": "Playground Series - Season 4, Episode 4",
+    "is_splited": true,
+    "overall_size": 211437,
+    "train_size": 90615,
+    "test_size": 60411,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "Sex": {}
+    },
+    "num_feature_intro": {
+        "id": {},
+        "Rings": {},
+        "Length": {},
+        "Diameter": {},
+        "Height": {},
+        "Whole weight": {},
+        "Whole weight.1": {},
+        "Whole weight.2": {},
+        "Shell weight": {}
+    },
+    "evaluation_metric": "Mean Squared Log Error"
+}

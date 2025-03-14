@@ -1,0 +1,36 @@
+{
+    "name": "playground-series-s4e11",
+    "source": "https://www.kaggle.com/competitions/playground-series-s4e11",
+    "data_intro": "Playground Series - Season 4, Episode 11",
+    "is_splited": true,
+    "overall_size": 328300,
+    "train_size": 140700,
+    "test_size": 93800,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "Name": {},
+        "Gender": {},
+        "City": {},
+        "Working Professional or Student": {},
+        "Profession": {},
+        "Sleep Duration": {},
+        "Dietary Habits": {},
+        "Degree": {},
+        "Have you ever had suicidal thoughts ?": {},
+        "Family History of Mental Illness": {}
+    },
+    "num_feature_intro": {
+        "id": {},
+        "Depression": {},
+        "Age": {},
+        "Academic Pressure": {},
+        "Work Pressure": {},
+        "CGPA": {},
+        "Study Satisfaction": {},
+        "Job Satisfaction": {},
+        "Work/Study Hours": {},
+        "Financial Stress": {}
+    },
+    "evaluation_metric": "Accuracy Score"
+}

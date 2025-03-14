@@ -1,0 +1,37 @@
+{
+    "name": "optiver-trading-at-the-close",
+    "source": "https://www.kaggle.com/competitions/optiver-trading-at-the-close",
+    "data_intro": "Predict US stocks closing movements",
+    "is_splited": true,
+    "overall_size": 5403145,
+    "train_size": 5237980,
+    "test_size": 33000,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "row_id": {}
+    },
+    "num_feature_intro": {
+        "stock_id": {},
+        "date_id": {},
+        "seconds_in_bucket": {},
+        "imbalance_size": {},
+        "imbalance_buy_sell_flag": {},
+        "reference_price": {},
+        "matched_size": {},
+        "far_price": {},
+        "near_price": {},
+        "bid_price": {},
+        "bid_size": {},
+        "ask_price": {},
+        "ask_size": {},
+        "wap": {},
+        "target": {},
+        "time_id": {},
+        "revealed_target": {},
+        "revealed_date_id": {},
+        "revealed_time_id": {},
+        "currently_scored": {}
+    },
+    "evaluation_metric": "Mean Columnwise Mean Absolute Error"
+}

@@ -1,0 +1,27 @@
+{
+    "name": "playground-series-s5e2",
+    "source": "https://www.kaggle.com/competitions/playground-series-s5e2",
+    "data_intro": "Playground Series - Season 5, Episode 2",
+    "is_splited": true,
+    "overall_size": 4394318,
+    "train_size": 3694318,
+    "test_size": 200000,
+    "c_classes": 0,
+    "n_classes": 0,
+    "cat_feature_intro": {
+        "Brand": {},
+        "Material": {},
+        "Size": {},
+        "Laptop Compartment": {},
+        "Waterproof": {},
+        "Style": {},
+        "Color": {}
+    },
+    "num_feature_intro": {
+        "id": {},
+        "Price": {},
+        "Compartments": {},
+        "Weight Capacity (kg)": {}
+    },
+    "evaluation_metric": "Mean Squared Error"
+}
