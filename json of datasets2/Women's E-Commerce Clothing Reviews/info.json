@@ -1,7 +1,7 @@
 {
     "name": "Women's E-Commerce Clothing Reviews",
     "source": "https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews/data",
-    "data_intro": "This dataset includes 23486 rows and 10 feature variables. Each row corresponds to a customer review, and includes the variables:",
+    "data_intro": "This is a Women's Clothing E-Commerce dataset revolving around the reviews written by customers. Its nine supportive features offer a great environment to parse out the text through its multiple dimensions. Because this is real commercial data, it has been anonymized, and references to the company in the review text and body have been replaced with “retailer”.",
     "is_splited": false,
     "overall_size": 23486,
     "train_size": 0,
@@ -23,5 +23,7 @@
         "Recommended IND": "- **Recommended IND:** Binary variable stating where the customer recommends the    product where 1 is recommended, 0 is not recommended.",
         "Positive Feedback Count": "- **Positive Feedback Count:** Positive Integer documenting the number of other customers who found this review positive."
     },
-    "evaluation_metric": null
+    "evaluation_metric": null,
+    "task_type": "classification",
+    "target": "Rating",
 }

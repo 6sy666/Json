@@ -1,7 +1,7 @@
 {
     "name": "playground-series-s5e2",
     "source": "https://www.kaggle.com/competitions/playground-series-s5e2",
-    "data_intro": "Playground Series - Season 5, Episode 2",
+    "data_intro": "Predict the price of backpacks given various attributes.",
     "is_splited": true,
     "overall_size": 4394318,
     "train_size": 3694318,
@@ -9,19 +9,22 @@
     "c_classes": 0,
     "n_classes": 0,
     "cat_feature_intro": {
-        "Brand": {},
-        "Material": {},
-        "Size": {},
-        "Laptop Compartment": {},
-        "Waterproof": {},
-        "Style": {},
-        "Color": {}
+        "Brand": "Brand of the backpack, which can influence price.",
+        "Material": "Material of the backpack (e.g., leather, nylon).",
+        "Size": "Size of the backpack (e.g., small, large).",
+        "Laptop Compartment": "Whether the backpack has a laptop compartment.",
+        "Waterproof": "Indicates if the backpack is waterproof.",
+        "Style": "Style of the backpack (e.g., casual, sports).",
+        "Color": "Color of the backpack."
     },
     "num_feature_intro": {
-        "id": {},
-        "Price": {},
-        "Compartments": {},
-        "Weight Capacity (kg)": {}
+        "id": "Unique ID for each backpack.",
+        "Price": "Target feature: the price of the backpack.",
+        "Compartments": "Number of compartments in the backpack.",
+        "Weight Capacity (kg)": "Maximum weight the backpack can carry."
     },
-    "evaluation_metric": "Mean Squared Error"
+    "evaluation_metric": "Mean Squared Error",
+    "task_type": "regression",
+    "target_feature": "Price",
+    "example":"https://www.kaggle.com/code/cdeotte/first-place-single-model-lb-38-81"
 }

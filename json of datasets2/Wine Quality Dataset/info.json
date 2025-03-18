@@ -24,5 +24,8 @@
         "quality": "- Build classification models to predict the wine quality.",
         "Id": "7 - total sulfur dioxide\\"
     },
-    "evaluation_metric": null
+    "evaluation_metric": null,
+    "task_type": "classification",
+    "target": "quality",
+    "example":"https://www.kaggle.com/code/qusaybtoush1990/wine-quality"
 }

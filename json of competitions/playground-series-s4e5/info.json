@@ -1,7 +1,7 @@
 {
     "name": "playground-series-s4e5",
     "source": "https://www.kaggle.com/competitions/playground-series-s4e5",
-    "data_intro": "Playground Series - Season 4, Episode 5",
+    "data_intro": "The goal of this competition is to predict the probability of a region flooding based on various factors.",
     "is_splited": true,
     "overall_size": 2608567,
     "train_size": 1117957,

@@ -1,7 +1,7 @@
 {
     "name": "porto-seguro-safe-driver-prediction",
     "source": "https://www.kaggle.com/competitions/porto-seguro-safe-driver-prediction",
-    "data_intro": "Predict if a driver will file an insurance claim next year.",
+    "data_intro": "In this competition, you're challenged to build a model that predicts the probability that a driver will initiate an auto insurance claim in the next year. While Porto Seguro has used machine learning for the past 20 years, they’re looking to Kaggle’s machine learning community to explore new, more powerful methods. A more accurate prediction will allow them to further tailor their prices, and hopefully make auto insurance coverage more accessible to more drivers.",
     "is_splited": true,
     "overall_size": 2380844,
     "train_size": 595212,
@@ -70,5 +70,8 @@
         "ps_calc_19_bin": {},
         "ps_calc_20_bin": {}
     },
-    "evaluation_metric": "Normalized Gini Index"
+    "evaluation_metric": "Normalized Gini Index",
+    "task_type":"classification",
+    "target_feature": "target",
+    "example":"https://www.kaggle.com/code/gaejabong/ch8-ensemble"
 }

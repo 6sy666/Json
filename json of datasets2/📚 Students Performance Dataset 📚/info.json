@@ -26,5 +26,8 @@
         "GPA": "- 4: 'F' (GPA &lt; 2.0)",
         "GradeClass": "- **GradeClass**: Classification of students' grades based on GPA:"
     },
+    "target":"GradeClass",
+    "task_type": "classification",
+    "example":"https://www.kaggle.com/code/joelknapp/student-performance-analysis",
     "evaluation_metric": null
 }

@@ -1,7 +1,7 @@
 {
     "name": "Win-Go, Color_Prediction",
     "source": "https://www.kaggle.com/datasets/najeedosmani/wingo-color-prediction/data",
-    "data_intro": "This is a Dataset Scraped from the site Anga Clubs , Win-Go contest.",
+    "data_intro": "This is a Win and Go type contest where one have to predict the color which upon predicting correctly will double or tripple the money( Depending on the money you bet for). There is some data generated along with the color where we can make use of it to predict the color.",
     "is_splited": false,
     "overall_size": 9999,
     "train_size": 0,
@@ -9,12 +9,15 @@
     "c_classes": 1,
     "n_classes": 3,
     "cat_feature_intro": {
-        "Color": "This is a Win and Go type contest where one have to predict the color which upon predicting correctly will double or tripple the money( Depending on the money you bet for). There is some data generated along with the color where we can make use of it to predict the color."
+        "Color": "The color to be predicted. There are three possible color categories."
     },
     "num_feature_intro": {
-        "Period": {},
-        "Price": {},
-        "Number": {}
+        "Period": "The period or time interval associated with each entry.",
+        "Price": "The price or bet amount associated with the contest.",
+        "Number": "A numerical value, likely related to the contest entry."
     },
-    "evaluation_metric": null
+    "evaluation_metric": null,
+    "task_type": "classification",
+    "target": "Color",
+    "example":"https://www.kaggle.com/code/devraai/wingo-color-prediction-analysis-and-modeling"
 }

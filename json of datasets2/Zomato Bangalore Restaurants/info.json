@@ -23,11 +23,14 @@
         "approx_cost(for two people)": "In Phase II the recorded data for each restaurant and each category was read and data for each restaurant was scraped individually. 15 variables were scraped in this phase. For each of the neighborhood and for each category their online_order, book_table, rate, votes, phone, location, rest_type, dish_liked, cuisines, approx_cost(for two people), reviews_list, menu_item was extracted. See section 5 for more details about the variables.",
         "reviews_list": "In Phase II the recorded data for each restaurant and each category was read and data for each restaurant was scraped individually. 15 variables were scraped in this phase. For each of the neighborhood and for each category their online_order, book_table, rate, votes, phone, location, rest_type, dish_liked, cuisines, approx_cost(for two people), reviews_list, menu_item was extracted. See section 5 for more details about the variables.",
         "menu_item": "In Phase II the recorded data for each restaurant and each category was read and data for each restaurant was scraped individually. 15 variables were scraped in this phase. For each of the neighborhood and for each category their online_order, book_table, rate, votes, phone, location, rest_type, dish_liked, cuisines, approx_cost(for two people), reviews_list, menu_item was extracted. See section 5 for more details about the variables.",
-        "listed_in(type)": {},
-        "listed_in(city)": {}
+        "listed_in(type)": "listed_in(type)",
+        "listed_in(city)": "listed_in(city)"
     },
     "num_feature_intro": {
         "votes": "In Phase II the recorded data for each restaurant and each category was read and data for each restaurant was scraped individually. 15 variables were scraped in this phase. For each of the neighborhood and for each category their online_order, book_table, rate, votes, phone, location, rest_type, dish_liked, cuisines, approx_cost(for two people), reviews_list, menu_item was extracted. See section 5 for more details about the variables."
     },
-    "evaluation_metric": null
+    "evaluation_metric": null,
+    "task_type":"regression",
+    "target": "rate",
+    "example":"https://www.kaggle.com/code/chirag9073/zomato-restaurants-analysis-and-prediction"
 }

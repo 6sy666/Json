@@ -9,22 +9,26 @@
     "c_classes": 3,
     "n_classes": 11,
     "cat_feature_intro": {
-        "Track.Name": {},
-        "Artist.Name": {},
-        "Genre": "What can we know about the genre?"
+        "Track.Name": "The title of the song.",
+        "Artist.Name": "The name of the artist who performed the song.",
+        "Genre": "The genre of the song, such as Pop, Hip-Hop, EDM, or Latin."
     },
     "num_feature_intro": {
-        "Unnamed: 0": {},
-        "Beats.Per.Minute": {},
-        "Energy": {},
-        "Danceability": {},
-        "Loudness..dB..": {},
-        "Liveness": {},
-        "Valence.": {},
-        "Length.": {},
-        "Acousticness..": {},
-        "Speechiness.": {},
-        "Popularity": {}
+        "Unnamed: 0": "Index column, likely an artifact of dataset formatting.",
+        "Beats.Per.Minute": "The tempo of the song, measured in beats per minute (BPM).",
+        "Energy": "A measure of intensity and activity in the song, with higher values indicating more energetic tracks.",
+        "Danceability": "A measure of how suitable the song is for dancing, based on tempo, rhythm stability, and beat strength.",
+        "Loudness..dB..": "The overall loudness of the song, measured in decibels (dB).",
+        "Liveness": "A measure of the presence of a live audience in the recording, where higher values suggest a greater likelihood of a live performance.",
+        "Valence.": "A measure of the musical positiveness of the song, where higher values indicate happier and more upbeat tracks.",
+        "Length.": "The duration of the song in seconds.",
+        "Acousticness..": "A measure of how acoustic the song is, with higher values indicating a greater presence of acoustic elements.",
+        "Speechiness.": "A measure of spoken word presence in the song, with higher values indicating more speech-like qualities.",
+        "Popularity": "A numerical score representing the song's popularity on Spotify."
+    },
+    "task_type": "regression",
+    "target":{
+        "Popularity": "The popularity of the song"
     },
     "evaluation_metric": null
 }

@@ -1,27 +1,30 @@
 {
     "name": "Where it Pays to Attend College",
     "source": "https://www.kaggle.com/datasets/wsj/college-salaries/data",
-    "data_intro": null,
+    "data_intro":"Salaries by college, region, and academic major",
     "is_splited": false,
     "overall_size": 639,
     "train_size": 0,
     "test_size": 0,
-    "c_classes": 23,
-    "n_classes": 1,
+    "c_classes": 4,
+    "n_classes": 7,
     "cat_feature_intro": {
-        "Undergraduate Major": {},
-        "Starting Median Salary": {},
-        "Mid-Career Median Salary": {},
-        "Mid-Career 10th Percentile Salary": {},
-        "Mid-Career 25th Percentile Salary": {},
-        "Mid-Career 75th Percentile Salary": {},
-        "Mid-Career 90th Percentile Salary": {},
-        "School Name": {},
-        "School Type": {},
-        "Region": "[5]: http://online.wsj.com/public/resources/documents/info-Salaries_for_Colleges_by_Region-sort.html"
+        "Undergraduate Major": "The academic major of the students.",
+        "School Name": "The name of the college or university.",
+        "School Type": "The type of school (public or private).",
+        "Region": "The geographical region where the school is located."
     },
     "num_feature_intro": {
-        "Percent change from Starting to Mid-Career Salary": {}
+        "Percent change from Starting to Mid-Career Salary": "The percentage change in salary from starting salary to mid-career salary.",
+        "Starting Median Salary": "The median starting salary for graduates of the school in a given major.",
+        "Mid-Career Median Salary": "The median salary for graduates of the school in a given major after some years of work.",
+        "Mid-Career 10th Percentile Salary": "The 10th percentile salary at mid-career.",
+        "Mid-Career 25th Percentile Salary": "The 25th percentile salary at mid-career.",
+        "Mid-Career 75th Percentile Salary": "The 75th percentile salary at mid-career.",
+        "Mid-Career 90th Percentile Salary": "The 90th percentile salary at mid-career."
     },
+    "task_type": "regression",
+    "target": "Mid-Career 90th Percentile Salary",
+    "example":"https://www.kaggle.com/code/shelars1985/take-help-of-analytics-to-choose-your-career/notebook",
     "evaluation_metric": null
 }

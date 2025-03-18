@@ -1,7 +1,7 @@
 {
     "name": "Twitter US Airline Sentiment",
     "source": "https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment/data",
-    "data_intro": "The data we're providing on Kaggle is a slightly reformatted version of the original source. It includes both a CSV file and SQLite database. The code that does these transformations is [available on GitHub](https://github.com/benhamner/crowdflower-airline-twitter-sentiment)",
+    "data_intro": "A sentiment analysis job about the problems of each major U.S. airline. Twitter data was scraped from February of 2015 and contributors were asked to first classify positive, negative, and neutral tweets, followed by categorizing negative reasons (such as late flight or rude service).",
     "is_splited": false,
     "overall_size": 14640,
     "train_size": 0,
@@ -9,23 +9,27 @@
     "c_classes": 11,
     "n_classes": 4,
     "cat_feature_intro": {
-        "airline_sentiment": {},
-        "negativereason": {},
-        "airline": "[![airline sentiment graph](https://www.kaggle.io/svf/136065/a6e055ee6d877d2f7784dc42a15ecc43/airlineSentimentPlot.png)](https://www.kaggle.com/benhamner/d/crowdflower/twitter-airline-sentiment/exploring-airline-twitter-sentiment-data)",
-        "airline_sentiment_gold": {},
-        "name": {},
-        "negativereason_gold": {},
-        "text": {},
-        "tweet_coord": {},
-        "tweet_created": {},
-        "tweet_location": {},
-        "user_timezone": {}
+        "airline_sentiment": "Categorical feature representing the sentiment of the tweet. It has three possible values: positive, negative, and neutral.",
+        "negativereason": "Categorical feature indicating the reason for a negative sentiment. Examples include 'Late Flight', 'Customer Service Issue', 'Cancelled Flight', etc.",
+        "airline": "The airline mentioned in the tweet. ",
+        "airline_sentiment_gold": "Expert-annotated sentiment label for the tweet, used as a gold standard for comparison.",
+        "name": "The Twitter username of the person who posted the tweet.",
+        "negativereason_gold": "Expert-annotated category for the negative reason, serving as a gold standard label.",
+        "text": "The actual content of the tweet.",
+        "tweet_coord": "Geographical coordinates from where the tweet was posted, if available.",
+        "tweet_created": "Timestamp indicating when the tweet was posted.",
+        "tweet_location": "The location mentioned in the user's Twitter profile.",
+        "user_timezone": "The timezone of the user based on their Twitter settings."
     },
     "num_feature_intro": {
-        "tweet_id": {},
-        "airline_sentiment_confidence": {},
-        "negativereason_confidence": {},
-        "retweet_count": {}
+        "tweet_id": "Unique numerical identifier assigned to each tweet.",
+        "airline_sentiment_confidence": "Confidence score indicating how certain the model is about the assigned sentiment label.",
+        "negativereason_confidence": "Confidence score representing how likely the assigned negative reason is correct.",
+        "retweet_count": "Number of times the tweet has been retweeted."
+    },
+    "task_type": "classification",
+    "target": {
+        "airline_sentiment": "The sentiment of the tweet, which can be positive, negative, or neutral."
     },
     "evaluation_metric": null
 }

@@ -18,7 +18,7 @@
         "Currency": "Currency",
         "Has Table booking": "•\tHas Table booking: yes/no",
         "Has Online delivery": "•\tHas Online delivery: yes/ no",
-        "Is delivering now": {},
+        "Is delivering now": "•\tIs delivering now: yes/ no",
         "Switch to order menu": "•\tSwitch to order menu: yes/no",
         "Rating color": "•\tRating color: depending upon the average rating color",
         "Rating text": "Rating Text",
@@ -34,5 +34,7 @@
         "Aggregate rating": "•\tAggregate Rating: Average rating out of 5",
         "Votes": "•\tVotes: Number of ratings casted by people"
     },
-    "evaluation_metric": null
+    "evaluation_metric": null,
+    "task_type":"regression",
+    "target":"Average Cost for two"
 }

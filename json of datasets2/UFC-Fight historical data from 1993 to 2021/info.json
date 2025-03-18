@@ -1,13 +1,13 @@
 {
     "name": "UFC-Fight historical data from 1993 to 2021",
     "source": "https://www.kaggle.com/datasets/rajeevw/ufcdata/data",
-    "data_intro": "This dataset got a lot of love from the community and I saw many people asking for an updated version, so I have uploaded the latest scraped and processed data ( as of 21/03/2021). Now it's super easy for anyone to get the latest dataset (Just use a single command), so in case you need bleeding-edge data, or you want to see the code, you can look [here](https://github.com/WarrierRajeev/UFC-Predictions). Hope this solves all problems!",
+    "data_intro": "This is a list of every UFC fight in the history of the organisation. Every row contains information about both fighters, fight details and the winner. The data was scraped from ufcstats website. After fightmetric ceased to exist, this came into picture. I saw that there was a lot of information on the website about every fight and every event and there were no existing ways of capturing all this. I used beautifulsoup to scrape the data and pandas to process it. It was a long and arduous process, please forgive any mistakes. I have provided the raw files incase anybody wants to process it differently.Each row is a compilation of both fighter stats. Fighters are represented by 'red' and 'blue' (for red and blue corner). So for instance, red fighter has the complied average stats of all the fights except the current one. The stats include damage done by the red fighter on the opponent and the damage done by the opponent on the fighter (represented by 'opp' in the columns) in all the fights this particular red fighter has had, except this one as it has not occured yet (in the data). Same information exists for blue fighter. The target variable is 'Winner' which is the only column that tells you what happened.",
     "is_splited": false,
     "overall_size": 21522,
     "train_size": 0,
     "test_size": 0,
-    "c_classes": 21,
-    "n_classes": 298,
+    "c_classes": null,
+    "n_classes": null,
     "cat_feature_intro": {
         "R_fighter": {},
         "B_fighter": {},
@@ -195,5 +195,7 @@
         "TD_Avg": {},
         "Sub_Avg": {}
     },
-    "evaluation_metric": null
+    "evaluation_metric": null,
+    "task_type": "classfication",
+    "target":"Winner"
 }
