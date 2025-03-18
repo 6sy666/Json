@@ -1,7 +1,7 @@
 {
     "name": "user-retention-prediction",
     "source": "https://www.kaggle.com/competitions/user-retention-prediction",
-    "data_intro": "Predict the number of days users will log in in the next week",
+    "data_intro": "Predict the number of days users will log in in the next week.The data for this competition includes operation sequence logs of users from an online game over a one-month period, aiming to distinguish between retained users and churned users through these sequences.",
     "is_splited": true,
     "overall_size": 78971763,
     "train_size": 78793386,
@@ -10,11 +10,14 @@
     "n_classes": 0,
     "cat_feature_intro": {},
     "num_feature_intro": {
-        "ID": {},
-        "pred": {},
-        "Timestamp": {},
-        "ActionType": {},
-        "ActionId": {}
+        "ID": "Unique identifier for the user",
+        "pred": "The predicted number of days the user will log in within the next seven days, which should be a floating-point number between 0 and 7 (inclusive).",
+        "Timestamp": "Timestamp of the user's operation (Note: The time zone should be converted to UTC+8. The first log entry is at 2018-09-21 00:00:00, and the last entry is at 2018-10-20 23:59:59.)",
+        "ActionType": "Type of operation",
+        "ActionId": "ID of the operation"
     },
-    "evaluation_metric": "SMAPE"
+    "evaluation_metric": "SMAPE",
+    "task_type":"regression",
+    "target":"pred",
+    "example":"https://www.kaggle.com/code/peilwang/tabm-upr-start-notebook"
 }

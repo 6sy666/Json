@@ -2,13 +2,25 @@
     "name": "walmart-recruiting-trip-type-classification",
     "source": "https://www.kaggle.com/competitions/walmart-recruiting-trip-type-classification",
     "data_intro": "Use market basket analysis to classify shopping trips",
-    "is_splited": false,
-    "overall_size": 0,
+    "is_splited": true,
+    "overall_size": 647054,
     "train_size": 0,
     "test_size": 0,
-    "c_classes": 0,
-    "n_classes": 0,
-    "cat_feature_intro": {},
-    "num_feature_intro": {},
-    "evaluation_metric": "Multiclass Loss"
+    "c_classes": 3,
+    "n_classes": 4,
+    "cat_feature_intro": {
+        "TripType":"a categorical id representing the type of shopping trip the customer made. This is the ground truth that you are predicting. TripType_999 is an 'other' category.",
+        "Weekday":"the weekday of the trip",
+        "DepartmentDescription":"a high-level description of the item's department"
+    },
+    "num_feature_intro": {
+        "VisitNumber":"an id corresponding to a single trip by a single customer",
+        "Upc":"the UPC number of the product purchased",
+        "ScanCount":"the number of the given item that was purchased. A negative value indicates a product return.",
+        "FinelineNumber":"a more refined category for each of the products, created by Walmart"
+    },
+    "evaluation_metric": "Multiclass Loss",
+    "task_type":"classification",
+    "target":"TripType",
+    "example":"https://www.kaggle.com/code/bonesliu10318/visualization-walmart-trip-type-classification"
 }

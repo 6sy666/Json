@@ -1,14 +1,33 @@
 {
     "name": "predict-west-nile-virus",
     "source": "https://www.kaggle.com/competitions/predict-west-nile-virus",
-    "data_intro": "Predict West Nile virus in mosquitos across the city of Chicago",
+    "data_intro": "Predict West Nile virus in mosquitos across the city of Chicago.In this competition, you will be analyzing weather data and GIS data and predicting whether or not West Nile virus is present, for a given time, location, and species. Every year from late-May to early-October, public health workers in Chicago setup mosquito traps scattered across the city. Every week from Monday through Wednesday, these traps collect mosquitos, and the mosquitos are tested for the presence of West Nile virus before the end of the week. The test results include the number of mosquitos, the mosquitos species, and whether or not West Nile virus is present in the cohort. ",
     "is_splited": false,
     "overall_size": 0,
     "train_size": 0,
     "test_size": 0,
-    "c_classes": 0,
-    "n_classes": 0,
-    "cat_feature_intro": {},
-    "num_feature_intro": {},
-    "evaluation_metric": "Area Under Receiver Operating Characteristic Curve"
+    "c_classes": 5,
+    "n_classes": 9,
+    "cat_feature_intro": {
+        "Address": "the approximate address of the location of trap. This is used to send to the GeoCoder.",
+        "Species": "the species of mosquitos",
+        "Street": "the street name",
+        "AddressNumberAndStreet": "approximate address returned from GeoCoder",
+        "WnvPresent": "whether West Nile Virus was present in these mosquitos. 1 means WNV is present, and 0 means not present."
+    },
+    "num_feature_intro": {
+        "Id": "the id of the record",
+        "Date": "the date that the WNV test is performed",
+        "Block": "the block number of the address",
+        "Trap": "Id of the trap",
+        "Latitude": "Latitude",
+        "Longitude": "Longitude",
+        "AddressAccuracy": "accuracy  returned from GeoCoder",
+        "NumMosquitos": "number of mosquitoes caught in this trap",
+        "Time": "the time of the spray"
+    },
+    "evaluation_metric": "Area Under Receiver Operating Characteristic Curve",
+    "task_type":"classification",
+    "target":"WnvPresent",
+    "example":"https://www.kaggle.com/code/agazgo/west-nile-virus-eda-prediction#4.-Feature-engineering"
 }

@@ -1,14 +1,34 @@
 {
     "name": "two-sigma-connect-rental-listing-inquiries",
     "source": "https://www.kaggle.com/competitions/two-sigma-connect-rental-listing-inquiries",
-    "data_intro": "How much interest will a new rental listing on RentHop receive?",
-    "is_splited": false,
+    "data_intro": "How much interest will a new rental listing on RentHop receive? Two Sigma invites you to apply your talents in this recruiting competition featuring rental listing data from RentHop. Kagglers will predict the number of inquiries a new listing receives based on the listing’s creation date and other features. Doing so will help RentHop better handle fraud control, identify potential listing quality issues, and allow owners and agents to better understand renters' needs and preferences. In this competition, you will predict how popular an apartment rental listing is based on the listing content like text description, photos, number of bedrooms, price, etc. The data comes from renthop.com, an apartment listing website. These apartments are located in New York City. The target variable, interest_level, is defined by the number of inquiries a listing has in the duration that the listing was live on the site.",
+    "is_splited": true,
     "overall_size": 0,
     "train_size": 0,
     "test_size": 0,
-    "c_classes": 0,
-    "n_classes": 0,
-    "cat_feature_intro": {},
-    "num_feature_intro": {},
-    "evaluation_metric": "Multiclass Loss"
-}
+    "c_classes": 10,
+    "n_classes": 5,
+    "cat_feature_intro": {
+        "building_id": "a unique identifier for a building",
+        "created": "when the listing was created",
+        "description": "a full description of the apartment",
+        "display_address": "an abbreviated address for the apartment",
+        "features": "a list of features about this apartment",
+        "manager_id": "a unique identifier for a manager",
+        "photos": "a list of photo links. You are welcome to download the pictures",
+        "street_address": "the unabbreviated address for the apartment",
+        "interest_level": "this is the target variable. It has 3 categories: 'high', 'medium', 'low'",
+        "listing_id": "a unique identifier for the listing"
+    },
+    "num_feature_intro": {
+        "bathrooms": "number of bathrooms",
+        "bedrooms": "number of bathrooms",
+        "latitude": "latitude",
+        "longitude": "longitude",
+        "price": "price in USD"
+    },
+    "evaluation_metric": "Multiclass Loss",
+    "task_type":"classification",
+    "target":"interest_level",
+    "example":"https://www.kaggle.com/code/jiangyuany/2-sigma-eda"
+}   

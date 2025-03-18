@@ -1,7 +1,7 @@
 {
     "name": "predicting-red-hat-business-value",
     "source": "https://www.kaggle.com/competitions/predicting-red-hat-business-value",
-    "data_intro": "Classify customer potential",
+    "data_intro": "Classify customer potential.Like most companies, Red Hat is able to gather a great deal of information over time about the behavior of individuals who interact with them. They’re in search of better methods of using this behavioral data to predict which individuals they should approach—and even when and how to approach them. In this competition, Kagglers are challenged to create a classification algorithm that accurately identifies which customers have the most potential business value for Red Hat based on their characteristics and activities.",
     "is_splited": false,
     "overall_size": 0,
     "train_size": 0,
