@@ -2,13 +2,25 @@
     "name": "telstra-recruiting-network",
     "source": "https://www.kaggle.com/competitions/telstra-recruiting-network",
     "data_intro": "Predict service faults on Australia's largest telecommunications network ",
-    "is_splited": false,
+    "is_splited": true,
     "overall_size": 0,
     "train_size": 0,
     "test_size": 0,
     "c_classes": 0,
     "n_classes": 0,
-    "cat_feature_intro": {},
-    "num_feature_intro": {},
-    "evaluation_metric": "Multiclass Loss"
+    "cat_feature_intro": {
+        "id": "id"
+    },
+    "num_feature_intro": {
+        "location": "location",
+        "log_feature": "log_feature",
+        "event_type": "event_type",
+        "resource_type": "resource_type",
+        "severity_type": "severity_type",
+        "volume": "volume"
+    },
+    "evaluation_metric": "Multiclass Loss",
+    "task_type":"classification",
+    "target":"fault_severity",
+    "example":"https://www.kaggle.com/code/renatz/using-lightgbm-catboost-tuned-by-bo-gridcv"
 }

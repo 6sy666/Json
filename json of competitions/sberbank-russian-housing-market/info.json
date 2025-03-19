@@ -1,8 +1,8 @@
 {
     "name": "sberbank-russian-housing-market",
     "source": "https://www.kaggle.com/competitions/sberbank-russian-housing-market",
-    "data_intro": "Can you predict realty price fluctuations in Russia’s volatile economy?",
-    "is_splited": false,
+    "data_intro": "Can you predict realty price fluctuations in Russia's volatile economy? The aim of this competition is to predict the sale price of each property. The training data is from August 2011 to June 2015, and the test set is from July 2015 to May 2016. The dataset also includes information about overall conditions in Russia's economy and finance sector, so you can focus on generating accurate price forecasts for individual properties, without needing to second-guess what the business cycle will do.",
+    "is_splited": true,
     "overall_size": 0,
     "train_size": 0,
     "test_size": 0,

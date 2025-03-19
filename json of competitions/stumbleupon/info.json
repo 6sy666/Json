@@ -1,17 +1,46 @@
 {
     "name": "stumbleupon",
     "source": "https://www.kaggle.com/competitions/stumbleupon",
-    "data_intro": "Build a classifier to categorize webpages as evergreen or non-evergreen",
+    "data_intro": "Build a classifier to categorize webpages as evergreen or non-evergreen.Many people know evergreen content when they see it, but can an algorithm make the same determination without human intuition? Your mission is to build a classifier which will evaluate a large set of URLs and label them as either evergreen or ephemeral. Can you out-class(ify) StumbleUpon?  ",
     "is_splited": false,
-    "overall_size": 3171,
+    "overall_size": 7395,
     "train_size": 0,
     "test_size": 0,
     "c_classes": 0,
     "n_classes": 0,
-    "cat_feature_intro": {},
-    "num_feature_intro": {
-        "urlid": {},
-        "label": {}
+    "cat_feature_intro": {
+        "url":"Url of the webpage to be classified",
+        "urlid":"StumbleUpon's unique identifier for each url",
+        "boilerplate":"Boilerplate text",
+        "alchemy_category":"Alchemy category",
+        "framebased":"A page is frame-based (1) if it has no body markup but have a frameset markup",
+        "hasDomainLink":"True (1) if it contains an <a> with an url with domain",
+        "is_news":"True (1) if StumbleUpon's news classifier determines that this webpage is news",
+        "lengthyLinkDomain":"True (1) if at least 3 <a> 's text contains more than 30 alphanumeric characters",
+        "news_front_page":"True (1) if StumbleUpon's news classifier determines that this webpage is front-page news",
+        "label":"(target) evergreen (1) or non-evergreen (0)"
     },
-    "evaluation_metric": "Area Under Receiver Operating Characteristic Curve"
+    "num_feature_intro": {
+        "alchemy_category_score":"Alchemy category score",
+        "avglinksize":"Average number of words in each link",
+        "commonlinkratio_1":"Number of links sharing at least 1 word with 1 other links / number of links",
+        "commonlinkratio_2":"Number of links sharing at least 1 word with 2 other links / number of links",
+        "commonlinkratio_3":"Number of links sharing at least 1 word with 3 other links / number of links",
+        "commonlinkratio_4":"Number of links sharing at least 1 word with 4 other links / number of links",
+        "compression_ratio":"Compression achieved on this page via gzip (measure of redundancy)",
+        "embed_ratio":"Count of number of <embed> usage",
+        "frameTagRatio":"Ratio of iframe markups over total number of markups",
+        "html_ratio":"Ratio of tags vs text in the page",
+        "image_ratio":"Ratio of <img> tags vs text in the page",
+        "linkwordscore":"Percentage of words on the page that are in hyperlink's text",
+        "non_markup_alphanum_characters":"Number of alphanumeric characters outside HTML tags",
+        "numberOfLinks":"Number of markups",
+        "numwords_in_url":"Number of words in url",
+        "parametrizedLinkRatio":"A link is parametrized if it's url contains parameters or has an attached onClick event",
+        "spelling_errors_ratio":"Ratio of words not found in wiki (considered to be a spelling mistake)"
+    },
+    "evaluation_metric": "Area Under Receiver Operating Characteristic Curve",
+    "task_type":"classification",
+    "target":"label",
+    "example":"https://www.kaggle.com/code/aganguly/glove-embedding-lstm"
 }

@@ -1,7 +1,7 @@
 {
     "name": "regression-tabular-california-housing",
     "source": "https://www.kaggle.com/competitions/regression-tabular-california-housing",
-    "data_intro": "Knowledge base competition cloned from kaggle for California housing dataset",
+    "data_intro": "Knowledge base competition cloned from kaggle for California housing dataset. The dataset for this competition (both train and test) was generated from a deep learning model trained on the California Housing Dataset. Feature distributions are close to, but not exactly the same, as the original. Feel free to use the original dataset as part of this competition, both to explore differences as well as to see whether incorporating the original in training improves model performance.",
     "is_splited": true,
     "overall_size": 86655,
     "train_size": 37137,

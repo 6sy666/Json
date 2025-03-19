@@ -1,7 +1,7 @@
 {
     "name": "talkingdata-mobile-user-demographics",
     "source": "https://www.kaggle.com/competitions/talkingdata-mobile-user-demographics",
-    "data_intro": "Get to know millions of mobile device users",
+    "data_intro": "In this competition, you are going to predict the demographics of a user (gender and age) based on their app download and usage behaviors.  In this competition, Kagglers are challenged to build a model predicting users' demographic characteristics based on their app usage, geolocation, and mobile device properties. Doing so will help millions of developers and brand advertisers around the world pursue data-driven marketing efforts which are relevant to their users and catered to their preferences.",
     "is_splited": false,
     "overall_size": 0,
     "train_size": 0,
@@ -10,5 +10,8 @@
     "n_classes": 0,
     "cat_feature_intro": {},
     "num_feature_intro": {},
-    "evaluation_metric": "Multiclass Loss"
+    "evaluation_metric": "Multiclass Loss",
+    "task_type":"classification",
+    "target":"group",
+    "example":"https://www.kaggle.com/code/kylingu/talkingdata-learning"
 }

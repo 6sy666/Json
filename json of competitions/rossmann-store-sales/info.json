@@ -9,27 +9,30 @@
     "c_classes": 0,
     "n_classes": 0,
     "cat_feature_intro": {
-        "StoreType": {},
-        "Assortment": {},
-        "PromoInterval": {},
-        "Date": {},
-        "StateHoliday": {}
+        "StoreType": "differentiates between 4 different store models: a, b, c, d",
+        "Assortment": "describes an assortment level: a = basic, b = extra, c = extended",
+        "PromoInterval": "describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. 'Feb,May,Aug,Nov' means each round starts in February, May, August, November of any given year for that store",
+        "Date": "the date of sales",
+        "StateHoliday": "indicates a state holiday. Normally all stores, with few exceptions, are closed on state holidays. Note that all schools are closed on public holidays and weekends. a = public holiday, b = Easter holiday, c = Christmas, 0 = None",
+        "Promo2": "Promo2 is a continuing and consecutive promotion for some stores: 0 = store is not participating, 1 = store is participating",
+        "Promo": "indicates whether a store is running a promo on that day",
+        "Id": "an Id that represents a (Store, Date) duple within the test set"
     },
     "num_feature_intro": {
-        "Id": {},
-        "Sales": {},
-        "Store": {},
-        "CompetitionDistance": {},
-        "CompetitionOpenSinceMonth": {},
-        "CompetitionOpenSinceYear": {},
-        "Promo2": {},
-        "Promo2SinceWeek": {},
-        "Promo2SinceYear": {},
-        "DayOfWeek": {},
-        "Open": {},
-        "Promo": {},
-        "SchoolHoliday": {},
-        "Customers": {}
+        "Sales": "the turnover for any given day (this is what you are predicting)",
+        "Store": "a unique Id for each store",
+        "CompetitionDistance": "distance in meters to the nearest competitor store",
+        "CompetitionOpenSinceMonth": "gives the approximate month of the time the nearest competitor was opened",
+        "CompetitionOpenSinceYear": "gives the approximate year of the time the nearest competitor was opened",
+        "Promo2SinceWeek": "describes calendar week when the store started participating in Promo2",
+        "Promo2SinceYear": "describes the year when the store started participating in Promo2",
+        "DayOfWeek": "gives the day of the week (Monday, Tuesday, etc.)",
+        "Open": "an indicator for whether the store was open: 0 = closed, 1 = open",
+        "SchoolHoliday": "indicates if the (Store, Date) was affected by the closure of public schools",
+        "Customers": "the number of customers on a given day"
     },
-    "evaluation_metric": "Root Mean Square Percentage Error"
+    "evaluation_metric": "Root Mean Square Percentage Error",
+    "example":"https://www.kaggle.com/code/kinsiangchia/rossmann-sales-emblayer-xg-lgb#Data-Preprocessing",
+    "task_type":"regression",
+    "target":"Sales"
 }

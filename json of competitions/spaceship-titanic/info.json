@@ -1,7 +1,7 @@
 {
     "name": "spaceship-titanic",
     "source": "https://www.kaggle.com/competitions/spaceship-titanic",
-    "data_intro": "Predict which passengers are transported to an alternate dimension",
+    "data_intro": "Predict which passengers are transported to an alternate dimension. In this competition your task is to predict whether a passenger was transported to an alternate dimension during the Spaceship Titanic's collision with the spacetime anomaly. To help you make these predictions, you're given a set of personal records recovered from the ship's damaged computer system.",
     "is_splited": true,
     "overall_size": 17247,
     "train_size": 8693,
@@ -9,22 +9,25 @@
     "c_classes": 0,
     "n_classes": 0,
     "cat_feature_intro": {
-        "PassengerId": {},
-        "HomePlanet": {},
-        "CryoSleep": {},
-        "Cabin": {},
-        "Destination": {},
-        "VIP": {},
-        "Name": {}
+        "PassengerId": "A unique Id for each passenger. Each Id takes the form gggg_pp where gggg indicates a group the passenger is travelling with and pp is their number within the group. People in a group are often family members, but not always.",
+        "HomePlanet": "The planet the passenger departed from, typically their planet of permanent residence.",
+        "CryoSleep": "Indicates whether the passenger elected to be put into suspended animation for the duration of the voyage. Passengers in cryosleep are confined to their cabins.",
+        "Cabin": "The cabin number where the passenger is staying. Takes the form deck/num/side, where side can be either P for Port or S for Starboard.",
+        "Destination": "The planet the passenger will be debarking to.",
+        "VIP": "Whether the passenger has paid for special VIP service during the voyage.",
+        "Name": "The first and last names of the passenger."
     },
     "num_feature_intro": {
-        "Transported": {},
-        "Age": {},
-        "RoomService": {},
-        "FoodCourt": {},
-        "ShoppingMall": {},
-        "Spa": {},
-        "VRDeck": {}
+        "Transported": "Whether the passenger was transported to another dimension. This is the target, the column you are trying to predict.",
+        "Age": "The age of the passenger.",
+        "RoomService": "Amount the passenger has billed at each of the Spaceship Titanic's many luxury amenities.",
+        "FoodCourt": "Amount the passenger has billed at each of the Spaceship Titanic's many luxury amenities.",
+        "ShoppingMall": "Amount the passenger has billed at each of the Spaceship Titanic's many luxury amenities.",
+        "Spa": "Amount the passenger has billed at each of the Spaceship Titanic's many luxury amenities.",
+        "VRDeck": "Amount the passenger has billed at each of the Spaceship Titanic's many luxury amenities."
     },
-    "evaluation_metric": "Categorization Accuracy"
+    "evaluation_metric": "Categorization Accuracy",
+    "task_type":"classification",
+    "target": "Transported",
+    "example":"https://www.kaggle.com/code/samuelcortinhas/spaceship-titanic-a-complete-guide#Feature-engineering"
 }
